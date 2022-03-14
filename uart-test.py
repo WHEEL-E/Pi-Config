@@ -10,7 +10,6 @@ def main(action):
         parity=serial.PARITY_NONE,
         stopbits=serial.STOPBITS_ONE,
         bytesize=serial.EIGHTBITS,
-        timeout=5,
     )
     port.write(action.encode())
 
