@@ -1,3 +1,7 @@
+"""
+For more information on the serial module, see: https://pythonhosted.org/pyserial/index.html
+"""
+
 import serial
 
 
