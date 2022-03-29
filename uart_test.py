@@ -17,7 +17,5 @@ def main(action):
     port.write(action.encode())
 
 
-main("a")
-main("b")
-main("c")
-main("d")
+main("A")
+main("B")
