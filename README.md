@@ -9,4 +9,4 @@ Steps to configure Pi:
     * The default password is: `raspberry`
 3. Open raspberrypi configuration `sudo raspi-config`
 4. Enable `VNC`, `Serial`, `Camera` and `Expand filesystem`
-5. Complete the setup using `bash setup.sh`
+5. Complete the setup using `bash setup.txt`
