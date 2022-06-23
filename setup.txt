@@ -1,9 +1,11 @@
-apt-get update -y
-apt-get upgrade -y
-apt dist-upgrade -y
-apt-get install python3-opencv -y
-apt-get install libhdf5-dev -y
-apt-get install libhdf5-serial-dev -y
-apt-get install libatlas-base-dev -y
-pip install numpy==1.20.3
-pip install tflite-runtime
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt dist-upgrade -y
+sudo apt-get install python3-opencv -y
+sudo apt-get install libhdf5-dev -y
+sudo apt-get install libhdf5-serial-dev -y
+sudo apt-get install libatlas-base-dev -y
+pip3 install numpy==1.20.3
+pip3 install tflite-runtime
+curl -sSL https://deb.nodesource.com/setup_16.x | sudo bash -
+sudo apt-get install -y nodejs
