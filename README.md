@@ -15,4 +15,4 @@
 
 ## Run script at startup
 
-sudo nano /etc/rc.local
+`sudo nano /etc/rc.local`
