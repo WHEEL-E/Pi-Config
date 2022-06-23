@@ -1,5 +1,7 @@
 # Pi-config
-Steps to configure Pi:
+
+## Steps to configure Pi
+
 1. Copy ssh and wpa_supplicant files to the pi root directory
 2. Power on the pi and use putty to connect to it
     * Set the Host Name field to `raspberrypi.local`
@@ -10,3 +12,7 @@ Steps to configure Pi:
 3. Open raspberrypi configuration `sudo raspi-config`
 4. Enable `VNC`, `Serial`, `Camera` and `Expand filesystem`
 5. Complete the setup using `bash setup.txt`
+
+## Run script at startup
+
+sudo nano /etc/rc.local
